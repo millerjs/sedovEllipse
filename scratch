@@ -1,0 +1,22 @@
+
+           ! r = .1
+           ! a = 2
+           ! vx = 0
+           ! vy = 0
+           ! vz = 0
+           ! p = 10
+           ! if (xx < r*a) then
+           !    theta = sqrt(r**2 - xx**2/a**2)
+           !    if (yy < theta) then
+           !       m = a**2/xx*theta
+           !       ! rxy = sqrt( (xx/a)**2 + yy**2)
+           !       rxy = 1
+           !       p = 680
+           !       print *, "here"
+           !       theta = atan(m)
+           !       vx = 200*cos(theta)*rxy
+           !       vy = 200*sin(theta)*rxy
+
+           !    endif
+           ! endif
+           
